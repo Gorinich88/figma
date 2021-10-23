@@ -89,6 +89,9 @@ font-family: Poppins;
   line-height: 28px;
   font-weight: normal;
   font-family: Poppins;
+  flex-wrap: wrap;
+  display: flex;
+
 }
 .hero_btn {
   padding-top: 45px;
@@ -127,7 +130,85 @@ font-weight: normal;
 }
 .img_hero {
   margin-top: 128px;
-  padding-left: 3px;
+  padding-left: 20px;
   width: 605px;
   height: 494px;
+}
+.tools {
+  margin-top: 160px;
+}
+.tools_title {
+  margin:0 auto;
+  text-align: center;
+  font-size: 36px;
+  max-width: 500px;
+  font-weight: bold;
+  line-height: 54px;
+  font-family: Poppins;
+  color: #2F281E;
+}
+.cards {
+  width: 1095px;
+  height: 204px;
+  margin-left: 45px;
+  margin-top: 54px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.icon_1 {
+  margin-left: 45px;
+  width: 51px;
+  height: 50px;
+}
+.icon_2 {
+  margin-left: 45px;
+  width: 51px;
+  height: 50px;
+}
+.icon_3 {
+  margin-left: 45px;
+  width: 51px;
+  height: 50px;
+}
+.icon_4 {
+  margin-left: 45px;
+  width: 51px;
+  height: 50px;
+}
+.icon1_title {
+  font-size: 22px;
+  font-weight: 600px;
+  padding-top: 50px;
+  text-align: center;
+  padding-right: 76px;
+  display: inline-block;
+  
+  
+  
+}
+.icon1_text {
+  color: #2F281E;
+  padding-top: 13px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+  font-family: Poppins;
+  width: 240px;
+  height: 52px;
+}
+.card_btn {
+  margin-left: 500px;
+}
+.sign_up_now {
+background-color: #FF9900;
+color: #FFFFFF;
+text-align: center;
+font-size: 16px;
+padding: 15px 34px;
+margin-right: 0px;
+border-radius: 4px;
+border: none;
+font-family: Poppins;
+font-weight: normal;
 }
