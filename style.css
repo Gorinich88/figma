@@ -153,42 +153,42 @@ font-weight: normal;
   margin-left: 45px;
   margin-top: 54px;
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.card {
+  margin-left: 45px;
+  width: 1095px;
 }
 .icon_1 {
-  margin-left: 45px;
   width: 51px;
   height: 50px;
 }
 .icon_2 {
-  margin-left: 45px;
   width: 51px;
   height: 50px;
 }
 .icon_3 {
-  margin-left: 45px;
   width: 51px;
   height: 50px;
 }
 .icon_4 {
-  margin-left: 45px;
   width: 51px;
   height: 50px;
 }
-.icon1_title {
+.icon_title {
   font-size: 22px;
   font-weight: 600px;
-  padding-top: 50px;
-  text-align: center;
-  padding-right: 76px;
-  display: inline-block;
+  text-align: left;
+  font-family: Poppins;
+  color: #2F281E;
+  
   
   
   
 }
-.icon1_text {
+.icon_text {
   color: #2F281E;
-  padding-top: 13px;
   text-align: left;
   font-size: 16px;
   line-height: 26px;
@@ -199,6 +199,7 @@ font-weight: normal;
 }
 .card_btn {
   margin-left: 500px;
+  padding-top: 34px;
 }
 .sign_up_now {
 background-color: #FF9900;
@@ -211,4 +212,58 @@ border-radius: 4px;
 border: none;
 font-family: Poppins;
 font-weight: normal;
+}
+.professionals {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 240px;
+  padding-left: 45px;
+}
+.text_professionals {
+  max-width: 486px;
+  max-height: 531px;
+}
+.top_text {
+font-family: Poppins;
+font-style: normal;
+font-weight: lighter;
+font-size: 16px;
+line-height: 24px;
+color: #544837;
+}
+.second_title {
+  color: #2F281E;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
+.first_text {
+  color: #544837;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 26px;
+}
+.third_title {
+  color: #2F281E;
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+.img_professionals {
+  padding-left: 104px;
+  max-width: 520px;
+  max-height: 574px;
+}
+.managers {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  padding-top: 200px;
+  padding-left: 45px;
+}
+.img_managers {
+  padding-left: 45px;
+  
 }
