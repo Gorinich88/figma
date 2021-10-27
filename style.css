@@ -257,13 +257,36 @@ color: #544837;
   max-height: 574px;
 }
 .managers {
+display: flex;
+padding-top: 200px;
+  
+}
+.text_manager {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.page_marker {
+flex-direction: column;
+list-style-image: url(assets/icon5.png);
+list-style-position: outside;
+
+}
+.marketers {
+  padding-left: 45px;
+  padding-top: 100px;
   display: flex;
-  justify-content: flex-start;
-  flex-direction: row-reverse;
-  padding-top: 200px;
+  width: 1110px;
+  height: 609px;
+}
+.text_marketers {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 609px;
   padding-left: 45px;
 }
-.img_managers {
-  padding-left: 45px;
-  
+.picture_marketers {
+  padding-left: 82px;
+width: 542px;
+height: 609px;
 }
