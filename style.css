@@ -262,8 +262,8 @@ padding-top: 200px;
   
 }
 .text_manager {
-  padding-left: 100px;
-  padding-top: 20px;
+padding-left: 100px;
+padding-top: 20px;
 }
 .page_marker {
 flex-direction: column;
@@ -272,21 +272,66 @@ list-style-position: outside;
 
 }
 .marketers {
-  padding-left: 45px;
-  padding-top: 100px;
-  display: flex;
-  width: 1110px;
-  height: 609px;
+padding-left: 45px;
+padding-top: 100px;
+display: flex;
+width: 1110px;
+height: 609px;
 }
 .text_marketers {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  height: 609px;
-  padding-left: 45px;
+display: flex;
+flex-direction: column;
+width: 400px;
+height: 609px;
+padding-left: 45px;
 }
 .picture_marketers {
-  padding-left: 82px;
+padding-left: 82px;
 width: 542px;
 height: 609px;
+}
+.footer {
+width: 1109px;
+height: 308px;
+padding-top: 246px;
+padding-left: 100px;
+}
+.logo_footer {
+
+}
+.nav_footer {
+display: flex;
+padding-top: 30px;
+
+}
+.navigation1 {
+flex-direction: column;
+
+}
+.navigation2 {
+  flex-direction: column;
+
+}
+.iformative_line {
+width: 325px;
+height: 48px;
+}
+.in_line {
+width: 325px;
+height: 48px;
+}
+.btn_footer {
+padding-top: 21px;
+}
+.sign_up_footer {
+background-color: #FF9900;
+color: #FFFFFF;
+text-align: center;
+font-size: 16px;
+padding: 15px 34px;
+margin-right: 0px;
+border-radius: 4px;
+border: none;
+font-family: Poppins;
+font-weight: normal;
 }
