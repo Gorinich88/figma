@@ -295,6 +295,7 @@ li {
 .text_manager {
   padding-left: 100px;
   padding-top: 20px;
+
 }
 
 .page_marker {
@@ -319,6 +320,7 @@ li {
   transform: translateY(-23px);
 }
 .marketers {
+  
   padding-left: 45px;
   padding-top: 100px;
   display: flex;
@@ -329,13 +331,16 @@ li {
 .text_marketers {
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 609px;
+  width: 486px;
+  height: 409px;
   padding-left: 45px;
-}
+  line-height: 1.5;
+  margin: 0;
 
+}
 .picture_marketers {
   padding-left: 82px;
+  padding-top: 30px;
   width: 542px;
   height: 609px;
 }
@@ -361,10 +366,13 @@ li {
   flex-direction: column;
   gap: 10px;
   padding-top: 120px;
+  margin-left: -100px;
+  justify-content: center;
 }
 
 .navigation2 {
   flex-direction: column;
+  justify-content: center;
   padding-top: 120px;
   gap: 10px;
 }
